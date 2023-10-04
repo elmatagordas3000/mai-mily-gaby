@@ -13,3 +13,58 @@ Los orígenes de Arduino se remontan al Instituto de Diseño de Interacción de 
 Sin embargo, al llegar a una comunidad más amplia, Arduino comenzó a evolucionar para adaptarse a nuevas necesidades y desafíos, diversificando su oferta desde simples placas de 8 bits hasta productos enfocados en el Internet de las cosas (IoT), dispositivos portátiles, impresión 3D y sistemas embebidos.
 
 En resumen, Arduino es una tarjeta de desarrollo ideal para proyectos de hardware y de automatización programable que te permite llevar a cabo ideas tanto personales como industriales, haciendo accesible su uso a cualquier persona.
+
+
+
+
+          el pinout de arduino es el siguiente:
+    <img src="https://www.electronicshub.org/wp-content/uploads/2021/01/Arduino-UNO-Board-Layout.jpg">
+
+
+    partes de la placa arduino uno:
+    <img src="https://www.cursosaula21.com/wp-content/uploads/2019/06/1-e1560436184753.png">
+    <p>
+  (1 y 2) Alimentación USB/5VDC
+Arduino UNO puede ser alimentado desde un cable USB tipo B o mini conectado a tu ordenador, o desde una fuente de alimentación entre 6V y 18V. En la imagen de arriba, la conexión USB está etiquetada (1) y el conector de la fuente de alimentación (2).
+
+Ademas, la conexión USB sirve para cargar código en la placa de Arduino desde donde se pueden enviar datos de la programación e instrucciones a la placa.
+
+(3) Regulador de voltaje
+Este componente controla la cantidad de voltaje que entra en la placa de Arduino, evitando que un voltaje excesivo dañe el circuito.
+
+(4) Conexiones 
+Los pines de Arduino se utilizan para conectar los cables necesarios para construir un circuito. Este tipo de conexiones tiene varios pines, cada uno de los cuales está impreso en la placa y se utilizan para diferentes funciones:
+
+Reset: Permite el reseteo del micro controlador.
+5V y 3.3V: la clavija de 5V suministra 5 voltios de energía, y la clavija de 3.3V suministra 3.3 voltios de energía. La mayoría de los componentes simples usados con el Arduino funcionan bien con 5 o 3.3 voltios.
+GND: Hay varios pines GND en Arduino, se usan para conectar a tierra el circuito.
+VIN: Se usa para conectar la alimentación de la placa con una fuente externa de entre 6 y 12VDC.
+(5) Puertos de entrada Analógicos
+Estos pines bajo la etiqueta ‘Analog In’ (A0 a A5 en la UNO) pueden leer la señal de un sensor analógico y convertirla en un valor digital que podemos interpretar.
+
+(6) Micro-controlador Atmega 328
+Es el circuito integrado que actúa como cerebro o procesador de la placa de Arduino, donde se implementa la programación.
+
+(7) Entrada ICSP (In Chip Serial Programmer) 
+Permite grabar programas en el circuito directamente desde el ordenador sin necesidad de utilizar el puerto USB.
+
+(8) Indicador LED de alimentación
+Este LED se enciende para indicar que el microprocesador está activo.
+
+(9) LED TX RX 
+TX es la abreviatura de transmisión de datos y RX es la abreviatura de recepción de datos. Estas marcas comunes aparecen con regularidad en la electrónica para indicar los pines responsables de la comunicación serie. Estos LED se activan visualmente cuando la placa recibe o transmite datos.
+
+(10) Puertos Digitales
+Estos pines se pueden utilizar tanto para la entrada digital (como para detectar la pulsación de un botón) como para la salida digital (como para alimentar un LED).
+
+(11) Puerto de conexiones
+5 entradas o salidas auxiliares (de la 8 a la 12).
+3 salidas 9, 10 y 11 que permiten la modulación por ancho o de pulso.
+Salida 13 que sirve para conectar un led directamente a tierra.
+Salida a tierra GND.
+Pin AREF que se utiliza para fijar una tensión de referencia externa (entre 0 y 5 voltios) como límite superior de las clavijas de entrada analógica.
+(12) Chip de Arduino 
+Permite identificar un dispositivo USB por el ordenador, es como su tarjeta de identificación o D.N.I. personal
+
+(13) Botón de RESET 
+Al presionarlo conectará temporalmente el pin de reset a tierra y reiniciará cualquier código que esté cargado en el micro-controlador de Arduino.  
