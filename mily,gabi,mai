@@ -1,1 +1,15 @@
+    <center>  <H1> BIENVENIDOS ESTO ES ARDUINO UNO <center>
+<p>
 <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fpixabay.com%2Fes%2Fimages%2Fsearch%2Farduino%2F&psig=AOvVaw3ROwpeGYjk6vxSLcNfG56K&ust=1696527701619000&source=images&cd=vfe&opi=89978449&ved=0CA8QjRxqFwoTCIif3fv43IEDFQAAAAAdAAAAABAD">
+<p>
+Arduino es una plataforma de código abierto que combina hardware y software fácil de manejar para construir proyectos electrónicos. Está compuesta por una placa de circuito programable (generalmente llamada microcontrolador) y un software o entorno de desarrollo integrado (IDE) que se instala en tu computadora para escribir y cargar el código en la placa física.
+
+Las placas de Arduino son capaces de leer entradas (como la luz de un sensor o la pulsación de un botón) y convertirlas en salidas (como activar un motor o encender un LED).
+
+En pocas palabras, puedes decirle a la placa qué hacer enviándole instrucciones mediante el lenguaje de programación de Arduino (basado en Wiring) y el software de Arduino (IDE, basado en Processing).
+
+Los orígenes de Arduino se remontan al Instituto de Diseño de Interacción de Ivrea, donde se creó como una herramienta sencilla para el prototipado rápido dirigida a estudiantes sin experiencia en electrónica y programación.
+
+Sin embargo, al llegar a una comunidad más amplia, Arduino comenzó a evolucionar para adaptarse a nuevas necesidades y desafíos, diversificando su oferta desde simples placas de 8 bits hasta productos enfocados en el Internet de las cosas (IoT), dispositivos portátiles, impresión 3D y sistemas embebidos.
+
+En resumen, Arduino es una tarjeta de desarrollo ideal para proyectos de hardware y de automatización programable que te permite llevar a cabo ideas tanto personales como industriales, haciendo accesible su uso a cualquier persona.
